@@ -3,6 +3,9 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        dmsans: ['DM Sans', 'sans-serif']
+      },
       colors: {
         'hazy-sky': {
           DEFAULT: '#5376C0',
