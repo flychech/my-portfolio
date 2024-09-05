@@ -1,17 +1,8 @@
 import { useState } from 'react'
-import {
-  useTransition,
-  useSpring,
-  useChain,
-  config,
-  animated,
-  useSpringRef
-} from '@react-spring/web'
-
-import data from './data'
-import styles from './styles.module.css'
+import { useSpring, config, animated } from '@react-spring/web'
 
 import AVATAR from '../../assets/chech-avatar-1.png'
+import MYPHOTO from '../../assets/my-photo.jpeg'
 
 export default function PersonalData() {
   const [open, setOpen] = useState(false)
@@ -32,7 +23,7 @@ export default function PersonalData() {
     width: '100%',
     from: {
       width: '100%',
-      background: 'hotpink',
+      background: '',
       borderRadius: 999
     },
     enter: {
@@ -43,42 +34,13 @@ export default function PersonalData() {
 
   const onAvatarClick = (isOpen: boolean) => ({
     width: isOpen ? '350%' : '100%',
-    background: isOpen ? 'white' : 'hotpink',
+    background: isOpen ? 'white' : '',
     borderRadius: isOpen ? 16 : 999
   })
 
-  // const springApi = useSpringRef()
-  // const { size, ...rest } = useSpring({
-  //   ref: springApi,
-  //   config: config.stiff,
-  //   from: {
-  //     size: '20%',
-  //     background: 'hotpink',
-  //     position: 'relative'
-  //   },
-  //   to: {
-  //     size: open ? '100%' : '20%',
-  //     background: open ? 'white' : 'hotpink',
-  //     position: open ? 'absolute' : 'relative',
-  //     top: open ? 0 : 0,
-  //     left: open ? 0 : 0
-  //   }
-  // })
-
-  const transApi = useSpringRef()
-  const transition = useTransition(open ? data : [], {
-    ref: transApi,
-    trail: 400 / data.length,
-    from: { opacity: 0, scale: 0 },
-    enter: { opacity: 1, scale: 1 },
-    leave: { opacity: 0, scale: 0 }
-  })
-
-  // useChain(open ? [springApi, transApi] : [transApi, springApi], [0, open ? 0.1 : 0.6])
-
   return (
     <>
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-x-6">
         <animated.div
           className="min-w-28 min-h-28 max-w-28 max-h-28 relative"
           style={props}
@@ -91,7 +53,7 @@ export default function PersonalData() {
         >
           <animated.div
             style={avatarContainerProps}
-            className="absolute top-0 left-0 bg-hazy-sky-200 min-w-full min-h-full flex justify-center items-center overflow-hidden"
+            className="absolute top-0 left-0 bg-hazy-sky-200 min-w-full min-h-full flex justify-center items-center overflow-hidden cursor-pointer"
             onClick={() => {
               set(updateHover(false))
               setOpen((open) => {
@@ -100,10 +62,11 @@ export default function PersonalData() {
               })
             }}
           >
-            <img src={AVATAR} alt="chech-avatar" className="w-full" />
-            {/* {transition((style, item) => (
-              <animated.div className={styles.item} style={{ ...style, background: item.css }} />
-            ))} */}
+            {open ? (
+              <img src={MYPHOTO} alt="Sergio Alvarez photo" className="w-full" />
+            ) : (
+              <img src={AVATAR} alt="chech-avatar" className="w-full" />
+            )}
           </animated.div>
         </animated.div>
 

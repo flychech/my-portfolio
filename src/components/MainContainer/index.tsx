@@ -1,4 +1,7 @@
 import PersonalData from '../PersonalData'
+import AboutMe from '../AboutMe'
+import ExperienceNode from '../ExperienceNode'
+import experience from './../../data/experience'
 
 export default function MainContainer() {
   return (
@@ -6,13 +9,14 @@ export default function MainContainer() {
       <header className="w-1/2 max-h-screen lg:py-12 lg:sticky lg:top-0">
         <PersonalData />
       </header>
-      <div className="w-1/2">
-        <div>hola mundo 2</div>
-        <div>hola mundo 2</div>
-        <div>hola mundo 2</div>
-        <div>hola mundo 2</div>
-        <div>hola mundo 2</div>
-      </div>
+      <main className="w-1/2 lg:py-12">
+        <AboutMe />
+        <div className="flex flex-col gap-16">
+          {experience.map((company) => {
+            return <ExperienceNode company={company} key={company.id} />
+          })}
+        </div>
+      </main>
     </div>
   )
 }
