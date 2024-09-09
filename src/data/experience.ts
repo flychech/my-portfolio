@@ -9,13 +9,12 @@ const experience = [
     logo: TERRAMAR,
     company: 'Terramar Brands',
     time: '2012 - Present',
-    jobPosition: 'Web and mobile React Native developer.',
+    jobPosition: 'Web and mobile developer.',
     duties: [
-      'I continuously improve the web and mobile app users experience by searching for new technologies.',
-      'After the code was managed externally I implemented the management internally which reduced costs and allowed the brand to have full control of the design and the code.',
-      'Not only I lead the México web and app projects I also developed and lead the USA eCommerce and mobile app.',
-      'Propuse y desarrollé la aplicación móvil que se usa como herramienta para el evento “Viaje Internacional” de la empresa',
-      'Migré la parte correspondiente al desarrollo web y API REST a los servicios de AWS (Anteriormente se trabajaba con servidor propio de la empresa).'
+      "I continuously improve the web and mobile app user's experience by searching for new technologies.",
+      'After the mobile app code was managed externally I implemented the management internally which reduced costs and allowed the brand to have full control of the design and the code.',
+      'Not only I led the México web and app projects, I also developed and led the USA eCommerce and mobile app. I also developed the mobile application used for international trips.',
+      'I continuously migrate all my API REST and web development work to AWS from the company servers.'
     ],
     technologies: [
       'Javascript',
@@ -24,9 +23,12 @@ const experience = [
       'React Native',
       'Next',
       'Vite',
+      'Vue',
+      'Tailwind',
       'AWS',
       'Kubernetes',
-      'Docker'
+      'Docker',
+      'Firebase'
     ],
     link: 'https://www.terramarbrands.com'
   },
@@ -37,7 +39,7 @@ const experience = [
     time: 'Nov 2016 - Aug 2020',
     jobPosition: 'Fullstack developer.',
     duties: [
-      'Desarrollé en equipo el eCommerce de Wilson Sports Mx con código propio y también contribuí en la creación de un producto en el cual cualquier persona sin conocimientos de programación podía generar su propio eCommerce personalizado.'
+      'I developed with my team the Wilson Sports Mx eCommerce with our own code. I also contributed to the creation of a tool that any person without programming skills could create their own personalized eCommerce.'
     ],
     technologies: ['Javascript', 'React', 'React Native', 'Google Cloud'],
     link: 'https://www.facebook.com/redcube.io'
@@ -49,8 +51,8 @@ const experience = [
     time: 'Mar 2014 - Nov 2016',
     jobPosition: 'Fullstack developer.',
     duties: [
-      'Desarrollé el eCommerce con la plataforma Magento.',
-      'Desarrollé el backoffice administrativo conectado a la API REST de Walmart para comunicar temas de distribución de mercancía entre empresas.'
+      'With the Magento platform I developed the eCommerce web page.',
+      'I connected the Walmart API REST with our admin backoffice for supply chain communication purposes.'
     ],
     technologies: ['Javascript', 'React', 'PHP'],
     link: 'https://dgllatam.com/'
@@ -62,9 +64,9 @@ const experience = [
     time: 'Oct 2012 - Apr 2013',
     jobPosition: 'Fullstack developer.',
     duties: [
-      'Llevé a cabo el mantenimiento de backend y front-end de acuerdo a los requerimientos administrativos.'
+      'I managed the backend and front-end maintenance according to administrative requests.'
     ],
-    technologies: ['Javascript', 'React', 'PHP'],
+    technologies: ['Javascript', 'JQuery', 'React', 'PHP', 'Codeigniter'],
     link: 'https://telmex.com/'
   }
 ]

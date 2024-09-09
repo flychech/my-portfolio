@@ -6,6 +6,27 @@ export default {
       fontFamily: {
         dmsans: ['DM Sans', 'sans-serif']
       },
+      animation: {
+        'bounce-slow': 'bounce 2s linear infinite',
+        fly: 'fly 2s linear infinite',
+        side: 'side 2s linear infinite'
+      },
+      keyframes: {
+        fly: {
+          '0%': { transform: 'translateY(0px)' },
+          '20%': { transform: 'translateY(-3px)' },
+          '50%': { transform: 'translateY(-0px)' },
+          '80%': { transform: 'translateY(3px)' },
+          '100%': { transform: 'translateY(0px)' }
+        },
+        side: {
+          '0%': { transform: 'translateX(0px)' },
+          '20%': { transform: 'translateX(-3px)' },
+          '50%': { transform: 'translateX(-0px)' },
+          '80%': { transform: 'translateX(3px)' },
+          '100%': { transform: 'translateX(0px)' }
+        }
+      },
       colors: {
         'hazy-sky': {
           DEFAULT: '#5376C0',

@@ -72,7 +72,7 @@ export default function PersonalData() {
 
         <div className="flex-1">
           <h1 className="font-dmsans font-semibold text-5xl">Sergio Álvarez Mendizábal</h1>
-          <div className="text-xl mt-2">Fullstack and mobile developer</div>
+          <div className="text-xl mt-2 text-hazy-sky-400">Fullstack and mobile developer</div>
         </div>
       </div>
     </>

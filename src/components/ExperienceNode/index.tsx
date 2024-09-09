@@ -11,8 +11,8 @@ type Company = {
 export default function ExperienceNode({ company }: { company: Company }) {
   return (
     <div className="grid grid-rows-1 grid-cols-[160px_auto] gap-4 text-slate-400">
-      <div className="flex flex-col justify-center items-center gap-2">
-        <div>
+      <div className="flex flex-col items-center gap-2">
+        <div className="mt-2">
           <img src={company.logo} className="w-14 rounded" />
         </div>
         <div className="text-xs">{company.time}</div>
