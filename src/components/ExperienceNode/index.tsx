@@ -32,7 +32,7 @@ export default function ExperienceNode({ company }: { company: CompanyType }) {
       onMouseLeave={handleOnMouseLeave}
       onMouseMove={handleOnMouseMove}
       onClick={() => window.open(company.link)}
-      className="grid grid-rows-1 grid-cols-[160px_auto] gap-4 rounded-xl cursor-pointer text-slate-400 ease-linear duration-200 hover:shadow-[0px_0px_30px_1px_rgba(96,35,131,0.3)]"
+      className="px-2 py-3 grid grid-rows-1 grid-cols-[144px_auto] gap-4 rounded-xl cursor-pointer text-slate-400 ease-linear duration-200 hover:shadow-[0px_0px_30px_1px_rgba(96,35,131,0.3)]"
     >
       <div className="flex flex-col items-center gap-2">
         <div className="mt-2">
