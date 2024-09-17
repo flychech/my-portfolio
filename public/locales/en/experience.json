@@ -1,0 +1,97 @@
+{
+  "test": "this is a test",
+  "myProfesion": "Fullstack and mobile developer",
+  "professionalTitle": "Professional experience",
+  "sideTitle": "Side projects",
+  "downloadcv": "Download CV",
+  "aboutMe": [
+    "I started my adventure as a developer in 2011 in \"<a>Imagen Central</a>\" company, this is when I fell in love with this profession by working together with very passionate people.",
+    "My adventure continues now with more than 10 years of experience like freelance, working in large and small companies and startups, developing skills such as project management and negotiation.",
+    "And yes, I have remained in love with my profession since the first day I decided to dedicate myself to it."
+  ],
+  "professional": [
+    {
+      "id": "TMB",
+      "company": "Terramar Brands",
+      "time": "2012 - Present",
+      "jobPosition": "Web and mobile developer.",
+      "duties": [
+        "I continuously improve the web and mobile app user's experience by searching for new technologies.",
+        "After the mobile app code was managed externally I implemented the management internally which reduced costs and allowed the brand to have full control of the design and the code.",
+        "Not only I led the México web and app projects, I also developed and led the USA eCommerce and mobile app. I also developed the mobile application used for international trips.",
+        "I continuously migrate all my API REST and web development work to AWS from the company servers."
+      ],
+      "technologies": [
+        "Javascript",
+        "Typescript",
+        "React",
+        "React Native",
+        "Next",
+        "Vite",
+        "Vue",
+        "Tailwind",
+        "AWS",
+        "Kubernetes",
+        "Docker",
+        "Firebase"
+      ],
+      "link": "https://www.terramarbrands.com"
+    },
+    {
+      "id": "RED",
+      "company": "Redcube",
+      "time": "Nov 2016 - Aug 2020",
+      "jobPosition": "Fullstack developer.",
+      "duties": [
+        "I developed with my team the Wilson Sports Mx eCommerce with our own code. I also contributed to the creation of a tool that any person without programming skills could create their own personalized eCommerce."
+      ],
+      "technologies": ["Javascript", "React", "React Native", "Google Cloud"],
+      "link": "https://www.facebook.com/redcube.io"
+    },
+    {
+      "id": "DGL",
+      "company": "DGL Latam",
+      "time": "Mar 2014 - Nov 2016",
+      "jobPosition": "Fullstack developer.",
+      "duties": [
+        "With the Magento platform I developed the eCommerce web page.",
+        "I connected the Walmart API REST with our admin backoffice for supply chain communication purposes."
+      ],
+      "technologies": ["Javascript", "React", "PHP"],
+      "link": "https://dgllatam.com/"
+    },
+    {
+      "id": "TEL",
+      "company": "Telmex",
+      "time": "Oct 2012 - Apr 2013",
+      "jobPosition": "Fullstack developer.",
+      "duties": [
+        "I managed the backend and front-end maintenance according to administrative requests."
+      ],
+      "technologies": ["Javascript", "JQuery", "React", "PHP", "Codeigniter"],
+      "link": "https://telmex.com/"
+    }
+  ],
+  "sideProjects": [
+    {
+      "id": "SPA",
+      "company": "Serpa Cloud",
+      "time": "Aug 2022 - Present",
+      "jobPosition": "Front-end developer.",
+      "duties": ["I program the requested views and solve errors reported by the QA team."],
+      "technologies": ["Javascript", "Typescript", "React"],
+      "link": "https://serpa.cloud/"
+    },
+    {
+      "id": "DEE",
+      "company": "Deemby",
+      "time": "Mar 2021 - Jul 2022",
+      "jobPosition": "React Native developer.",
+      "duties": [
+        "I programmed the mobile application front-end for the Colombian government “InfoCandidato”. The senate and presidency candidates could interact with the colombian citizens in a more friendly way. My observations and communication improved the user's experience."
+      ],
+      "technologies": ["React Native"],
+      "link": "https://x.com/deemby_org"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "test": "esto es una prueba",
+  "myProfesion": "Desarrollador fullstack y móvil",
+  "professionalTitle": "Experiencia profesional",
+  "sideTitle": "Proyectos paralelos",
+  "downloadcv": "Descargar CV",
+  "aboutMe": [
+    "Inicié mi aventura como programador en el año 2011 en la empresa \"<a>Imagen Central</a>\" y fue ahí cuando me enamoré de esta profesión trabajando con personas muy apasionadas.",
+    "Mi aventura continúa ahora con más de 10 años de experiencia trabajando en grandes  y pequeñas empresas, startups y como freelance, desarrollando habilidades como la gestión de proyectos y la negociación.",
+    "Y si, sigo enamorado de mi profesión desde el primer día que decidí dedicarme a ella"
+  ],
+  "professional": [
+    {
+      "id": "TMB",
+      "company": "Terramar Brands",
+      "time": "2012 - Actual",
+      "jobPosition": "Desarrollador de aplicaciones web y móviles.",
+      "duties": [
+        "Busco mejorar continuamente la experiencia del usuario mediante la implementación de nuevas tecnologías.",
+        "Después de que el código de la aplicación móvil se gestionó externamente, propuse el desarrollo interno, lo que redujo los costos y permitió a la marca tener control total del diseño y el código.",
+        "No solo lideré los proyectos web y app en México, también desarrollé y lideré la aplicación móvil y de ceCommerce en Estados Unidos. Igualmente desarrollé la aplicación móvil utilizada para viajes internacionales.",
+        "Migro continuamente todo mi trabajo de desarrollo web y API REST a AWS desde los servidores de la empresa."
+      ],
+      "technologies": [
+        "Javascript",
+        "Typescript",
+        "React",
+        "React Native",
+        "Next",
+        "Vite",
+        "Vue",
+        "Tailwind",
+        "AWS",
+        "Kubernetes",
+        "Docker",
+        "Firebase"
+      ],
+      "link": "https://www.terramarbrands.com"
+    },
+    {
+      "id": "RED",
+      "company": "Redcube",
+      "time": "Nov 2016 - Ago 2020",
+      "jobPosition": "Desarrollador fullstack.",
+      "duties": [
+        "Desarrollé en equipo el eCommerce de Wilson Sports Mx con código propio y también contribuí en la creación de un producto en el cual cualquier persona sin conocimientos de programación podía generar su propio eCommerce personalizado."
+      ],
+      "technologies": ["Javascript", "React", "React Native", "Google Cloud"],
+      "link": "https://www.facebook.com/redcube.io"
+    },
+    {
+      "id": "DGL",
+      "company": "DGL Latam",
+      "time": "Mar 2014 - Nov 2016",
+      "jobPosition": "Desarrolador fullstack.",
+      "duties": [
+        "Desarrollé el eCommerce con la plataforma Magento.",
+        "Desarrollé el backoffice administrativo conectado a la API REST de Walmart para comunicar temas de distribución de mercancía entre empresas."
+      ],
+      "technologies": ["Javascript", "React", "PHP"],
+      "link": "https://dgllatam.com/"
+    },
+    {
+      "id": "TEL",
+      "company": "Telmex",
+      "time": "Oct 2012 - Abr 2013",
+      "jobPosition": "Desarrollador fullstack.",
+      "duties": [
+        "Llevé a cabo el mantenimiento de backend y front-end de acuerdo a los requerimientos administrativos."
+      ],
+      "technologies": ["Javascript", "JQuery", "React", "PHP", "Codeigniter"],
+      "link": "https://telmex.com/"
+    }
+  ],
+  "sideProjects": [
+    {
+      "id": "SPA",
+      "company": "Serpa Cloud",
+      "time": "Ago 2022 - Actual",
+      "jobPosition": "Desarrollador front-end.",
+      "duties": [
+        "Soluciono errores que reporta el equipo de QA y programo las vistas solicitadas."
+      ],
+      "technologies": ["Javascript", "Typescript", "React"],
+      "link": "https://serpa.cloud/"
+    },
+    {
+      "id": "DEE",
+      "company": "Deemby",
+      "time": "Mar 2021 - Jul 2022",
+      "jobPosition": "Desarrollador React Native.",
+      "duties": [
+        "Programé el front-end de la aplicación móvil del proyecto “InfoCandidato” para el gobierno de Colombia. Para que los candidatos al senado y a la presidencia interactuaran con el pueblo colombiano. Gracias a mis observaciones y mi comunicación, el diseño fue más amigable, mejorando la experiencia del usuario."
+      ],
+      "technologies": ["React Native"],
+      "link": "https://x.com/deemby_org"
+    }
+  ]
+}

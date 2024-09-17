@@ -1,11 +1,15 @@
 import { useState } from 'react'
 import { useSpring, config, animated } from '@react-spring/web'
+import { useTranslation } from 'react-i18next'
 
 import AVATAR from '../../assets/chech-avatar-1.png'
 import MYPHOTO from '../../assets/my-photo.jpeg'
+import CALLMADE from '../../assets/call_made.png'
 
 export default function PersonalData() {
+  const { t } = useTranslation('experience')
   const [open, setOpen] = useState(false)
+  const [cvhover, setCvhover] = useState(false)
 
   const [props, set] = useSpring(() => ({
     transform: 'scale(1)',
@@ -72,7 +76,22 @@ export default function PersonalData() {
 
         <div className="flex-1">
           <h1 className="font-dmsans font-semibold text-5xl">Sergio Álvarez Mendizábal</h1>
-          <div className="text-xl mt-2 text-hazy-sky-400">Fullstack and mobile developer</div>
+          <div className="text-xl mt-2 text-hazy-sky-400">{t('myProfesion')}</div>
+          <div
+            className="flex gap-1 items-center"
+            onMouseEnter={() => setCvhover(true)}
+            onMouseLeave={() => setCvhover(false)}
+          >
+            <div className="cursor-pointer">{t('downloadcv')}</div>
+            <img
+              src={CALLMADE}
+              className={`w-5 h-5 transition-all ${
+                cvhover
+                  ? '-translate-y-0.5 translate-x-0.5 opacity-100'
+                  : 'translate-y-0 translate-x-0 opacity-80'
+              }`}
+            />
+          </div>
         </div>
       </div>
     </>

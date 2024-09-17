@@ -1,16 +1,39 @@
-type Company = {
-  id: string
-  logo: string
-  company: string
-  time: string
-  jobPosition: string
-  duties: Array<string>
-  technologies: Array<string>
-}
+import { useState, useCallback } from 'react'
+import { CompanyType } from '../../types'
 
-export default function ExperienceNode({ company }: { company: Company }) {
+export default function ExperienceNode({ company }: { company: CompanyType }) {
+  const [hover, setHover] = useState(false)
+  const [[x, y], setXY] = useState([0, 0])
+
+  const handleOnMouseEnter = useCallback(() => setHover(true), [])
+  const handleOnMouseLeave = useCallback(() => {
+    setHover(false)
+    setXY([0, 0])
+  }, [])
+
+  const handleOnMouseMove = useCallback((e: React.MouseEvent<HTMLElement>) => {
+    const { currentTarget: target, clientX, clientY } = e
+    const rect = target.getBoundingClientRect()
+
+    setXY([
+      ((clientY - rect.top) * 20) / rect.height - 10,
+      ((clientX - rect.left) * -20) / rect.width + 10
+    ])
+  }, [])
+
   return (
-    <div className="grid grid-rows-1 grid-cols-[160px_auto] gap-4 text-slate-400">
+    <div
+      style={{
+        transform: hover
+          ? `scaleX(1.020) scaleY(1.020) perspective(2000px) rotateX(${x}deg) rotateY(${y}deg)`
+          : 'scale(1) perspective(2000px) rotateX(0deg) rotateY(0deg)'
+      }}
+      onMouseEnter={handleOnMouseEnter}
+      onMouseLeave={handleOnMouseLeave}
+      onMouseMove={handleOnMouseMove}
+      onClick={() => window.open(company.link)}
+      className="grid grid-rows-1 grid-cols-[160px_auto] gap-4 rounded-xl cursor-pointer text-slate-400 ease-linear duration-200 hover:shadow-[0px_0px_30px_1px_rgba(96,35,131,0.3)]"
+    >
       <div className="flex flex-col items-center gap-2">
         <div className="mt-2">
           <img src={company.logo} className="w-14 rounded" />
