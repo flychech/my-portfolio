@@ -32,22 +32,22 @@ export default function ExperienceNode({ company }: { company: CompanyType }) {
       onMouseLeave={handleOnMouseLeave}
       onMouseMove={handleOnMouseMove}
       onClick={() => window.open(company.link)}
-      className="px-2 py-3 grid grid-rows-1 grid-cols-[144px_auto] gap-4 rounded-xl cursor-pointer text-slate-400 ease-linear duration-200 hover:shadow-[0px_0px_30px_1px_rgba(96,35,131,0.3)]"
+      className="px-2 py-3 grid grid-rows-1 sm:grid-cols-[144px_auto] gap-4 rounded-xl cursor-pointer text-slate-400 ease-linear duration-200 hover:shadow-[0px_0px_30px_1px_rgba(96,35,131,0.3)]"
     >
-      <div className="flex flex-col items-center gap-2">
+      <div className="flex flex-col items-start sm:items-center gap-2">
         <div className="mt-2">
-          <img src={company.logo} className="w-14 rounded" />
+          <img src={company.logo} className="w-10 sm:w-14 rounded" />
         </div>
         <div className="text-xs">{company.time}</div>
       </div>
 
       <div className="flex flex-col gap-4">
         <div>
-          <div className="text-slate-100 text-xl font-semibold">{company.company}</div>
+          <div className="text-slate-100 text-lg sm:text-xl font-semibold">{company.company}</div>
           <div className="text-hazy-sky-400 text-sm">{company.jobPosition}</div>
         </div>
 
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 text-sm sm:text-base">
           {company.duties.map((duty) => {
             return <div key={duty}>{duty}</div>
           })}
