@@ -101,9 +101,9 @@
   "justForFun": [
     {
       "id": "JF1",
-      "company": "Show de luces para Halloween.",
+      "company": "Show de luces - Enter Sandman.",
       "time": "Nov 2024",
-      "jobPosition": "Show de luces - Enter Sandman.",
+      "jobPosition": "Show de luces para Halloween.",
       "duties": [
         "Es un proyecto que tenía muchas ganas de hacer desde hace mucho solo por diverción y darle un toque diferente a la decoración de Halloween de mi casa",
         "En este video se muestra el show con la canción Enter Sandman de Metallica."
@@ -114,9 +114,9 @@
     },
     {
       "id": "JF2",
-      "company": "Show de luces para 2.",
+      "company": "Show de luces - Detroit Rock City.",
       "time": "Nov 2024",
-      "jobPosition": "Show de luces - Detroit Rock City.",
+      "jobPosition": "Show de luces para.",
       "duties": ["En este video se muestra el show con la canción Thunderstruck de AC/DC."],
       "technologies": [],
       "isVideo": true,
@@ -124,9 +124,9 @@
     },
     {
       "id": "JF3",
-      "company": "Show de luces para Halloween 3.",
+      "company": "Show de luces - Thunderstruck.",
       "time": "Nov 2024",
-      "jobPosition": "Show de luces - Thunderstruck.",
+      "jobPosition": "Show de luces para Halloween.",
       "duties": ["En este video se muestra el show con la canción Thunderstruck de AC/DC."],
       "technologies": [],
       "isVideo": true,
@@ -147,7 +147,7 @@
     },
     {
       "id": "JF5",
-      "company": "Placing the light strips.",
+      "company": "Colocando las tiras de luces.",
       "time": "Nov 2024",
       "jobPosition": "Proyecto show de luces.",
       "duties": [

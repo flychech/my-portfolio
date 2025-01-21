@@ -99,9 +99,9 @@
   "justForFun": [
     {
       "id": "JF1",
-      "company": "Halloween light show.",
+      "company": "Light Show - Enter Sandman.",
       "time": "Oct 2024",
-      "jobPosition": "Light Show - Enter Sandman.",
+      "jobPosition": "Halloween light show.",
       "duties": [
         "It is a project that I have been wanting to do for a long time just for fun and to give a different touch to the Halloween decoration of my house.",
         "This video shows the show with the song Enter Sandman by Metallica."
@@ -112,9 +112,9 @@
     },
     {
       "id": "JF2",
-      "company": "Halloween light show 2.",
+      "company": "Light Show - Detroit Rock City.",
       "time": "Oct 2024",
-      "jobPosition": "Light Show - Detroit Rock City.",
+      "jobPosition": "Halloween light show.",
       "duties": ["This video shows the show with the song Detroit Rock City by Kiss."],
       "technologies": [],
       "isVideo": true,
@@ -122,9 +122,9 @@
     },
     {
       "id": "JF3",
-      "company": "Halloween light show 3.",
+      "company": "Light Show - Thunderstruck.",
       "time": "Oct 2024",
-      "jobPosition": "Light Show - Thunderstruck.",
+      "jobPosition": "Halloween light show.",
       "duties": ["his video shows the show with the song Thunderstruck by AC/DC."],
       "technologies": [],
       "isVideo": true,
