@@ -131,6 +131,32 @@
       "technologies": [],
       "isVideo": true,
       "link": "https://www.youtube.com/watch?v=pNMNRIGkmOc&ab_channel=SergioAlvarez%28Flychech%29"
+    },
+    {
+      "id": "JF4",
+      "company": "Creando la calabaza cantante.",
+      "time": "Nov 2024",
+      "jobPosition": "Proyecto show de luces.",
+      "duties": [
+        "La estrella del show, una calabaza que programé para que cantara en las canciones del show.",
+        "Para lograrlo usé un arduino con un poco de programación en C y el programa Vixen"
+      ],
+      "technologies": [],
+      "isVideo": true,
+      "link": "https://www.instagram.com/p/DByt6iDiTm1/"
+    },
+    {
+      "id": "JF5",
+      "company": "Placing the light strips.",
+      "time": "Nov 2024",
+      "jobPosition": "Proyecto show de luces.",
+      "duties": [
+        "Utilicé tiras led rgb direccionables en las ventanas y el balcón.",
+        "De igual forma para hacer que las luces danzaran al ritmo de la música usé un par de arduinos y el programa Vixen"
+      ],
+      "technologies": [],
+      "isVideo": true,
+      "link": "https://www.instagram.com/p/DByt6iDiTm1/"
     }
   ]
 }

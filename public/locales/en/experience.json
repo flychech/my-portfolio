@@ -100,7 +100,7 @@
     {
       "id": "JF1",
       "company": "Halloween light show.",
-      "time": "Nov 2024",
+      "time": "Oct 2024",
       "jobPosition": "Light Show - Enter Sandman.",
       "duties": [
         "It is a project that I have been wanting to do for a long time just for fun and to give a different touch to the Halloween decoration of my house.",
@@ -113,7 +113,7 @@
     {
       "id": "JF2",
       "company": "Halloween light show 2.",
-      "time": "Nov 2024",
+      "time": "Oct 2024",
       "jobPosition": "Light Show - Detroit Rock City.",
       "duties": ["This video shows the show with the song Detroit Rock City by Kiss."],
       "technologies": [],
@@ -123,12 +123,38 @@
     {
       "id": "JF3",
       "company": "Halloween light show 3.",
-      "time": "Nov 2024",
+      "time": "Oct 2024",
       "jobPosition": "Light Show - Thunderstruck.",
       "duties": ["his video shows the show with the song Thunderstruck by AC/DC."],
       "technologies": [],
       "isVideo": true,
       "link": "https://www.youtube.com/watch?v=pNMNRIGkmOc&ab_channel=SergioAlvarez%28Flychech%29"
+    },
+    {
+      "id": "JF4",
+      "company": "Creating the singing pumpkin.",
+      "time": "Oct 2024",
+      "jobPosition": "Light show project.",
+      "duties": [
+        "The star of the show, a pumpkin that I programmed to sing in the show's songs.",
+        "To create it I used an Arduino with a little C programming and the Vixen program"
+      ],
+      "technologies": [],
+      "isVideo": true,
+      "link": "https://www.instagram.com/p/DByt6iDiTm1/"
+    },
+    {
+      "id": "JF5",
+      "company": "Placing the light strips.",
+      "time": "Oct 2024",
+      "jobPosition": "Light show project.",
+      "duties": [
+        "I used addressable RGB LED strips on the windows and balcony.",
+        "Likewise, to make the lights dance to the rhythm of the music, I used a couple of Arduinos and the Vixen program."
+      ],
+      "technologies": [],
+      "isVideo": true,
+      "link": "https://www.instagram.com/p/DByt9_3PuwN/"
     }
   ]
 }
