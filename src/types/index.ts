@@ -6,5 +6,6 @@ export type CompanyType = {
   jobPosition: string
   duties: Array<string>
   technologies: Array<string>
+  isVideo: boolean
   link: string
 }

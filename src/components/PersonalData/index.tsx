@@ -3,7 +3,7 @@ import { useSpring, config, animated } from '@react-spring/web'
 import { useTranslation } from 'react-i18next'
 
 import AVATAR from '../../assets/chech-avatar-1.png'
-import MYPHOTO from '../../assets/my-photo.jpeg'
+import MYPHOTO from '../../assets/my-photo.jpg'
 import CALLMADE from '../../assets/call_made.png'
 
 export default function PersonalData() {
@@ -48,7 +48,7 @@ export default function PersonalData() {
     <>
       <div className="flex items-center gap-x-4 sm:gap-x-6">
         <animated.div
-          className="min-w-20 min-h-20 max-w-20 max-h-20 sm:min-w-28 sm:min-h-28 sm:max-w-28 sm:max-h-28 relative"
+          className="min-w-20 min-h-20 max-w-20 max-h-20 sm:min-w-28 sm:min-h-28 sm:max-w-28 sm:max-h-28 relative z-10"
           style={props}
           onMouseEnter={() => {
             if (!open) set.start(updateHover(true))
@@ -69,7 +69,7 @@ export default function PersonalData() {
             }}
           >
             {open ? (
-              <img src={MYPHOTO} alt="Sergio Alvarez photo" className="w-full" />
+              <img src={MYPHOTO} alt="Sergio Alvarez photo" className="w-full " />
             ) : (
               <img src={AVATAR} alt="chech-avatar" className="w-full" />
             )}
@@ -86,7 +86,12 @@ export default function PersonalData() {
             onMouseEnter={() => setCvhover(true)}
             onMouseLeave={() => setCvhover(false)}
           >
-            <div className="cursor-pointer text-sm sm:text-sm">{t('downloadcv')}</div>
+            <div
+              className="cursor-pointer text-sm sm:text-sm"
+              onClick={() => window.open(`/cv/${t('cv')}`, '_blank')}
+            >
+              {t('downloadcv')}
+            </div>
             <img
               src={CALLMADE}
               className={`w-4 h-4 sm:w-5 sm:h-5 transition-all ${

@@ -4,6 +4,9 @@ import DGLLATAM from './../assets/comapnies-logos/dgl_latam_logo.jpeg'
 import TELMEX from './../assets/comapnies-logos/logo-telmex.png'
 import SERPA from './../assets/comapnies-logos/serpa-logo.png'
 import DEEMBY from './../assets/comapnies-logos/deemby_logo.jpg'
+import JUSTFUN1 from '../assets/videos-images/enter-sandman.png'
+import JUSTFUN2 from '../assets/videos-images/detroit-rock-city.png'
+import JUSTFUN3 from '../assets/videos-images/thunderstruck.png'
 
 import { useTranslation } from 'react-i18next'
 
@@ -15,7 +18,10 @@ const LOGO_IMAGES = {
   DGL: DGLLATAM,
   TEL: TELMEX,
   SPA: SERPA,
-  DEE: DEEMBY
+  DEE: DEEMBY,
+  JF1: JUSTFUN1,
+  JF2: JUSTFUN2,
+  JF3: JUSTFUN3
 }
 
 export default function Experience(experienceList: string) {

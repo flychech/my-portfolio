@@ -3,6 +3,8 @@
   "myProfesion": "Desarrollador fullstack y móvil",
   "professionalTitle": "Experiencia profesional",
   "sideTitle": "Proyectos paralelos",
+  "justForFunTitle": "Solo por diverción",
+  "cv": "cv-sergio-alvarez-es.pdf",
   "downloadcv": "Descargar CV",
   "aboutMe": [
     "Inicié mi aventura como programador en el año 2011 en la empresa \"<a>Imagen Central</a>\" y fue ahí cuando me enamoré de esta profesión trabajando con personas muy apasionadas.",
@@ -94,6 +96,41 @@
       ],
       "technologies": ["React Native"],
       "link": "https://x.com/deemby_org"
+    }
+  ],
+  "justForFun": [
+    {
+      "id": "JF1",
+      "company": "Show de luces para Halloween.",
+      "time": "Nov 2024",
+      "jobPosition": "Show de luces - Enter Sandman.",
+      "duties": [
+        "Es un proyecto que tenía muchas ganas de hacer desde hace mucho solo por diverción y darle un toque diferente a la decoración de Halloween de mi casa",
+        "En este video se muestra el show con la canción Enter Sandman de Metallica."
+      ],
+      "technologies": [],
+      "isVideo": true,
+      "link": "https://www.youtube.com/watch?v=jKmLSqNjrPc&ab_channel=SergioAlvarez%28Flychech%29"
+    },
+    {
+      "id": "JF2",
+      "company": "Show de luces para 2.",
+      "time": "Nov 2024",
+      "jobPosition": "Show de luces - Detroit Rock City.",
+      "duties": ["En este video se muestra el show con la canción Thunderstruck de AC/DC."],
+      "technologies": [],
+      "isVideo": true,
+      "link": "https://www.youtube.com/watch?v=6GKCkr4DGV0&ab_channel=SergioAlvarez%28Flychech%29"
+    },
+    {
+      "id": "JF3",
+      "company": "Show de luces para Halloween 3.",
+      "time": "Nov 2024",
+      "jobPosition": "Show de luces - Thunderstruck.",
+      "duties": ["En este video se muestra el show con la canción Thunderstruck de AC/DC."],
+      "technologies": [],
+      "isVideo": true,
+      "link": "https://www.youtube.com/watch?v=pNMNRIGkmOc&ab_channel=SergioAlvarez%28Flychech%29"
     }
   ]
 }

@@ -7,6 +7,7 @@ import ExperienceWithLanguage from '../../data/ExperienceWithLanguage'
 import ROCKET from './../../assets/rocket_launch.png'
 import MEDAL from './../../assets/workspace_premium.png'
 import LANGUAGE from './../../assets/language.png'
+import CELEBRATION from './../../assets/celebration.png'
 import INSTA from './../../assets/instagram.svg'
 import FACEBOOK from './../../assets/facebook.svg'
 import LINKEDIN from './../../assets/linkedin.svg'
@@ -21,6 +22,7 @@ export default function MainContainer() {
 
   const experience = ExperienceWithLanguage('professional')
   const sideProjects = ExperienceWithLanguage('sideProjects')
+  const justForFun = ExperienceWithLanguage('justForFun')
 
   return (
     <div>
@@ -45,14 +47,19 @@ export default function MainContainer() {
             <img
               src={INSTA}
               className="w-7 h-7 opacity-60 hover:opacity-90 cursor-pointer transition-opacity duration-300"
+              onClick={() => window.open('https://www.instagram.com/flychech.dev/')}
             />
             <img
               src={FACEBOOK}
               className="w-7 h-7 opacity-60 hover:opacity-90 cursor-pointer transition-opacity duration-300"
+              onClick={() => window.open('https://www.facebook.com/profile.php?id=100008509244978')}
             />
             <img
               src={LINKEDIN}
               className="w-7 h-7 opacity-60 hover:opacity-90 cursor-pointer transition-opacity duration-300"
+              onClick={() =>
+                window.open('https://www.linkedin.com/in/sergio-alvarez-mendi%C3%A1bal-a5a826a0/')
+              }
             />
           </div>
         </header>
@@ -76,6 +83,16 @@ export default function MainContainer() {
 
           <div className="flex flex-col gap-16">
             {sideProjects.map((company) => {
+              return <ExperienceNode company={company} key={company.id} />
+            })}
+          </div>
+
+          <div className="mt-24 mb-7 font-semibold text-lg flex gap-3 items-center">
+            <img src={CELEBRATION} className="animate-side w-6 h-6" /> {t('justForFunTitle')}
+          </div>
+
+          <div className="flex flex-col gap-16">
+            {justForFun.map((company) => {
               return <ExperienceNode company={company} key={company.id} />
             })}
           </div>

@@ -36,7 +36,10 @@ export default function ExperienceNode({ company }: { company: CompanyType }) {
     >
       <div className="flex flex-col items-start sm:items-center gap-2">
         <div className="mt-2">
-          <img src={company.logo} className="w-10 sm:w-14 rounded" />
+          <img
+            src={company.logo}
+            className={company.isVideo ? 'w-full sm:w-full rounded' : 'w-12 sm:w-14 rounded'}
+          />
         </div>
         <div className="text-xs">{company.time}</div>
       </div>

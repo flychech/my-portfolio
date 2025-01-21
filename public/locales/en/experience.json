@@ -3,6 +3,8 @@
   "myProfesion": "Fullstack and mobile developer",
   "professionalTitle": "Professional experience",
   "sideTitle": "Side projects",
+  "justForFunTitle": "Just for fun",
+  "cv": "cv-sergio-alvarez-en.pdf",
   "downloadcv": "Download resume",
   "aboutMe": [
     "I started my adventure as a developer in 2011 in \"<a>Imagen Central</a>\" company, this is when I fell in love with this profession by working together with very passionate people.",
@@ -92,6 +94,41 @@
       ],
       "technologies": ["React Native"],
       "link": "https://x.com/deemby_org"
+    }
+  ],
+  "justForFun": [
+    {
+      "id": "JF1",
+      "company": "Halloween light show.",
+      "time": "Nov 2024",
+      "jobPosition": "Light Show - Enter Sandman.",
+      "duties": [
+        "It is a project that I have been wanting to do for a long time just for fun and to give a different touch to the Halloween decoration of my house.",
+        "This video shows the show with the song Enter Sandman by Metallica."
+      ],
+      "technologies": [],
+      "isVideo": true,
+      "link": "https://www.youtube.com/watch?v=jKmLSqNjrPc&ab_channel=SergioAlvarez%28Flychech%29"
+    },
+    {
+      "id": "JF2",
+      "company": "Halloween light show 2.",
+      "time": "Nov 2024",
+      "jobPosition": "Light Show - Detroit Rock City.",
+      "duties": ["This video shows the show with the song Detroit Rock City by Kiss."],
+      "technologies": [],
+      "isVideo": true,
+      "link": "https://www.youtube.com/watch?v=6GKCkr4DGV0&ab_channel=SergioAlvarez%28Flychech%29"
+    },
+    {
+      "id": "JF3",
+      "company": "Halloween light show 3.",
+      "time": "Nov 2024",
+      "jobPosition": "Light Show - Thunderstruck.",
+      "duties": ["his video shows the show with the song Thunderstruck by AC/DC."],
+      "technologies": [],
+      "isVideo": true,
+      "link": "https://www.youtube.com/watch?v=pNMNRIGkmOc&ab_channel=SergioAlvarez%28Flychech%29"
     }
   ]
 }
