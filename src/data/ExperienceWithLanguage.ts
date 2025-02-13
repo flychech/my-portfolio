@@ -9,6 +9,7 @@ import JUSTFUN2 from '../assets/videos-images/detroit-rock-city.png'
 import JUSTFUN3 from '../assets/videos-images/thunderstruck.png'
 import JUSTFUN4 from '../assets/videos-images/pumpkin.png'
 import JUSTFUN5 from '../assets/videos-images/led-strips.png'
+import JUSTPRACTICE1 from '../assets/just-for-practice/pong.png'
 
 import { useTranslation } from 'react-i18next'
 
@@ -25,7 +26,8 @@ const LOGO_IMAGES = {
   JF2: JUSTFUN2,
   JF3: JUSTFUN3,
   JF4: JUSTFUN4,
-  JF5: JUSTFUN5
+  JF5: JUSTFUN5,
+  JP1: JUSTPRACTICE1
 }
 
 export default function Experience(experienceList: string) {

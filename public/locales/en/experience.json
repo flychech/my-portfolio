@@ -3,6 +3,7 @@
   "myProfesion": "Fullstack and mobile developer",
   "professionalTitle": "Professional experience",
   "sideTitle": "Side projects",
+  "practiceTitle": "Just for practice",
   "justForFunTitle": "Just for fun",
   "cv": "cv-sergio-alvarez-en.pdf",
   "downloadcv": "Download resume",
@@ -94,6 +95,20 @@
       ],
       "technologies": ["React Native"],
       "link": "https://x.com/deemby_org"
+    }
+  ],
+  "justForPractice": [
+    {
+      "id": "JP1",
+      "company": "Pong.",
+      "time": "",
+      "jobPosition": "Pong videogame.",
+      "duties": [
+        "Pong was the first video game I played in my childhood and it was special for me to know how to program it 😃.",
+        "It is made only with vanilla javascript, HTML and CSS."
+      ],
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "link": "http://justtopractice.flychech.com/pong/"
     }
   ],
   "justForFun": [

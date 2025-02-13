@@ -8,7 +8,7 @@ export default function AboutMe() {
   }).map((v) => v)
 
   return (
-    <section className="text-slate-400 text-base mt-20 lg:mt-0 lg:text-lg">
+    <section className="text-slate-400 text-base mt-10 lg:mt-0 lg:text-lg">
       {aboutMe.map((paragraph, key: number) => {
         return (
           <p className={`${key + 1 >= aboutMe.length ? 'mb-12' : 'mb-4'}`} key={paragraph}>

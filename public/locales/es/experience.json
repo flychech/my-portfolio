@@ -3,6 +3,7 @@
   "myProfesion": "Desarrollador fullstack y móvil",
   "professionalTitle": "Experiencia profesional",
   "sideTitle": "Proyectos paralelos",
+  "practiceTitle": "Solo para practicar",
   "justForFunTitle": "Solo por diverción",
   "cv": "cv-sergio-alvarez-es.pdf",
   "downloadcv": "Descargar CV",
@@ -72,6 +73,20 @@
       ],
       "technologies": ["Javascript", "JQuery", "React", "PHP", "Codeigniter"],
       "link": "https://telmex.com/"
+    }
+  ],
+  "justForPractice": [
+    {
+      "id": "JP1",
+      "company": "Pong.",
+      "time": "",
+      "jobPosition": "Videojuego de Pong.",
+      "duties": [
+        "Pong fue el primer videojuego que jugué en mi infanica y fue especial para mi saberlo programar 😃.",
+        "Está hecho solo con vanilla javascript, HTML y CSS."
+      ],
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "link": "http://justtopractice.flychech.com/pong/"
     }
   ],
   "sideProjects": [
