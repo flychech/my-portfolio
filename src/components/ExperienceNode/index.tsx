@@ -1,7 +1,21 @@
 import { useState, useCallback } from 'react'
 import { CompanyType } from '../../types'
 
-export default function ExperienceNode({ company }: { company: CompanyType }) {
+import APPSTORE from './../../assets/app_store.png'
+import PLAYSTORE from './../../assets/play_store.png'
+
+const storeImages = {
+  APPSTORE,
+  PLAYSTORE
+}
+
+export default function ExperienceNode({
+  company,
+  itsAUniqueLink = true
+}: {
+  company: CompanyType
+  itsAUniqueLink?: boolean
+}) {
   const [hover, setHover] = useState(false)
   const [[x, y], setXY] = useState([0, 0])
 
@@ -31,7 +45,11 @@ export default function ExperienceNode({ company }: { company: CompanyType }) {
       onMouseEnter={handleOnMouseEnter}
       onMouseLeave={handleOnMouseLeave}
       onMouseMove={handleOnMouseMove}
-      onClick={() => window.open(company.link)}
+      onClick={() => {
+        if (itsAUniqueLink) {
+          window.open(company.link)
+        }
+      }}
       className="px-2 py-3 grid grid-rows-1 sm:grid-cols-[144px_auto] gap-4 rounded-xl cursor-pointer text-slate-400 ease-linear duration-200 hover:shadow-[0px_0px_30px_1px_rgba(96,35,131,0.3)]"
     >
       <div className="flex flex-col items-start sm:items-center gap-2">
@@ -55,6 +73,25 @@ export default function ExperienceNode({ company }: { company: CompanyType }) {
             return <div key={duty}>{duty}</div>
           })}
         </div>
+
+        {!itsAUniqueLink && (
+          <div className="flex flex-col gap-4">
+            <div className="flex gap-4 items-center hover:text-slate-100">
+              <img
+                src={storeImages[company.linkLogo as keyof typeof storeImages] || ''}
+                className={'w-8 sm:w-8 rounded'}
+              />
+              App Store
+            </div>
+            <div className="flex gap-4 items-center hover:text-slate-100">
+              <img
+                src={storeImages[company.linkLogo2 as keyof typeof storeImages] || ''}
+                className={'w-8 sm:w-8 rounded'}
+              />
+              Play Store
+            </div>
+          </div>
+        )}
 
         <div className="flex flex-wrap gap-2">
           {company.technologies.map((tech) => {

@@ -8,6 +8,10 @@ const sections = [
     scrollTo: 'sideProjects'
   },
   {
+    section: 'mobileAppsTitle',
+    scrollTo: 'mobileApps'
+  },
+  {
     section: 'practiceTitle',
     scrollTo: 'justForPractice'
   },

@@ -27,7 +27,9 @@ const LOGO_IMAGES = {
   JF3: JUSTFUN3,
   JF4: JUSTFUN4,
   JF5: JUSTFUN5,
-  JP1: JUSTPRACTICE1
+  JP1: JUSTPRACTICE1,
+  MA1: TERRAMAR,
+  MA2: TERRAMAR
 }
 
 export default function Experience(experienceList: string) {

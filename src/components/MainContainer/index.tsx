@@ -12,6 +12,7 @@ import ROCKET from './../../assets/rocket_launch.png'
 import MEDAL from './../../assets/workspace_premium.png'
 import LANGUAGE from './../../assets/language.png'
 import CELEBRATION from './../../assets/celebration.png'
+import HEARTPLUS from './../../assets/heart_plus.png'
 import INSTA from './../../assets/instagram.svg'
 import FACEBOOK from './../../assets/facebook.svg'
 import LINKEDIN from './../../assets/linkedin.svg'
@@ -30,6 +31,7 @@ export default function MainContainer() {
   const sideProjects = ExperienceWithLanguage('sideProjects')
   const justForPractice = ExperienceWithLanguage('justForPractice')
   const justForFun = ExperienceWithLanguage('justForFun')
+  const mobileApps = ExperienceWithLanguage('mobileApps')
 
   return (
     <div>
@@ -109,11 +111,21 @@ export default function MainContainer() {
             })}
           </div>
 
+          <div className="mt-24 mb-7 font-semibold text-lg flex gap-3 items-center" id="mobileApps">
+            <img src={HEARTPLUS} className="animate-side w-6 h-6" /> {t('mobileAppsTitle')}
+          </div>
+
+          <div className="flex flex-col gap-16">
+            {mobileApps.map((company) => {
+              return <ExperienceNode company={company} key={company.id} itsAUniqueLink={false} />
+            })}
+          </div>
+
           <div
             className="mt-24 mb-7 font-semibold text-lg flex gap-3 items-center"
             id="justForPractice"
           >
-            <img src={MEDAL} className="animate-side w-6 h-6" /> {t('practiceTitle')}
+            <img src={HEARTPLUS} className="animate-side w-6 h-6" /> {t('practiceTitle')}
           </div>
 
           <div className="flex flex-col gap-16">

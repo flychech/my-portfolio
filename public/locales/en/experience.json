@@ -3,6 +3,7 @@
   "myProfesion": "Fullstack and mobile developer",
   "professionalTitle": "Professional experience",
   "sideTitle": "Side projects",
+  "mobileAppsTitle": "Mobile apps",
   "practiceTitle": "Just for practice",
   "justForFunTitle": "Just for fun",
   "cv": "cv-sergio-alvarez-en.pdf",
@@ -16,7 +17,7 @@
     {
       "id": "TMB",
       "company": "Terramar Brands",
-      "time": "2013 - Present",
+      "time": "2020 - Present",
       "jobPosition": "Web and mobile developer.",
       "duties": [
         "I continuously improve the web and mobile app user's experience by searching for new technologies.",
@@ -38,7 +39,7 @@
         "Docker",
         "Firebase"
       ],
-      "link": "https://www.terramarbrands.com"
+      "link": "https://www.terramarbrands.com.mx"
     },
     {
       "id": "RED",
@@ -95,6 +96,34 @@
       ],
       "technologies": ["React Native"],
       "link": "https://x.com/deemby_org"
+    }
+  ],
+  "mobileApps": [
+    {
+      "id": "MA1",
+      "company": "Terramar.",
+      "time": "",
+      "jobPosition": "Terramar App.",
+      "duties": ["Mobile application for Terramar Brands eCommerce members."],
+      "technologies": ["React Native", "Firebase", "Push Notifications"],
+      "link": "http://justtopractice.flychech.com/pong/",
+      "linkLogo": "APPSTORE",
+      "link2": "http://justtopractice.flychech.com/pong/",
+      "linkLogo2": "PLAYSTORE"
+    },
+    {
+      "id": "MA2",
+      "company": "Terraviaje.",
+      "time": "",
+      "jobPosition": "Terramar Brands App.",
+      "duties": [
+        "Mobile application used by the winners of the international trip organized by the company."
+      ],
+      "technologies": ["React Native", "Firebase", "Push Notifications"],
+      "link": "http://justtopractice.flychech.com/pong/",
+      "linkLogo": "APPSTORE",
+      "link2": "http://justtopractice.flychech.com/pong/",
+      "linkLogo2": "PLAYSTORE"
     }
   ],
   "justForPractice": [

@@ -8,4 +8,7 @@ export type CompanyType = {
   technologies: Array<string>
   isVideo: boolean
   link: string
+  linkLogo?: string
+  link2?: string
+  linkLogo2?: string
 }
