@@ -10,6 +10,8 @@ import JUSTFUN3 from '../assets/videos-images/thunderstruck.png'
 import JUSTFUN4 from '../assets/videos-images/pumpkin.png'
 import JUSTFUN5 from '../assets/videos-images/led-strips.png'
 import JUSTPRACTICE1 from '../assets/just-for-practice/pong.png'
+import JUSTPRACTICE2 from '../assets/just-for-practice/arkanoid.png'
+import MOBILEAPP2 from '../assets/terraviaje_icon.png'
 
 import { useTranslation } from 'react-i18next'
 
@@ -28,8 +30,9 @@ const LOGO_IMAGES = {
   JF4: JUSTFUN4,
   JF5: JUSTFUN5,
   JP1: JUSTPRACTICE1,
+  JP2: JUSTPRACTICE2,
   MA1: TERRAMAR,
-  MA2: TERRAMAR
+  MA2: MOBILEAPP2
 }
 
 export default function Experience(experienceList: string) {

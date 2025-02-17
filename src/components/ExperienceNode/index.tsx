@@ -76,14 +76,20 @@ export default function ExperienceNode({
 
         {!itsAUniqueLink && (
           <div className="flex flex-col gap-4">
-            <div className="flex gap-4 items-center hover:text-slate-100">
+            <div
+              className="flex gap-4 items-center hover:text-slate-100"
+              onClick={() => window.open(company.link)}
+            >
               <img
                 src={storeImages[company.linkLogo as keyof typeof storeImages] || ''}
                 className={'w-8 sm:w-8 rounded'}
               />
               App Store
             </div>
-            <div className="flex gap-4 items-center hover:text-slate-100">
+            <div
+              className="flex gap-4 items-center hover:text-slate-100"
+              onClick={() => window.open(company.link2)}
+            >
               <img
                 src={storeImages[company.linkLogo2 as keyof typeof storeImages] || ''}
                 className={'w-8 sm:w-8 rounded'}

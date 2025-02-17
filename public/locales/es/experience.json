@@ -76,20 +76,6 @@
       "link": "https://telmex.com/"
     }
   ],
-  "justForPractice": [
-    {
-      "id": "JP1",
-      "company": "Pong.",
-      "time": "",
-      "jobPosition": "Videojuego de Pong.",
-      "duties": [
-        "Pong fue el primer videojuego que jugué en mi infanica y fue especial para mi saberlo programar 😃.",
-        "Está hecho solo con vanilla javascript, HTML y CSS."
-      ],
-      "technologies": ["Javascript", "HTML", "CSS"],
-      "link": "http://justtopractice.flychech.com/pong/"
-    }
-  ],
   "sideProjects": [
     {
       "id": "SPA",
@@ -122,9 +108,9 @@
       "jobPosition": "Terramar Brands App.",
       "duties": ["Aplicación móvil para los miembros del eCommerce de Terramar Brands."],
       "technologies": ["React Native", "Firebase", "Push Notifications"],
-      "link": "http://justtopractice.flychech.com/pong/",
+      "link": "https://apps.apple.com/mx/app/terramar-brands-mx/id1492884080",
       "linkLogo": "APPSTORE",
-      "link2": "http://justtopractice.flychech.com/pong/",
+      "link2": "https://play.google.com/store/search?q=terramar%20brands&c=apps",
       "linkLogo2": "PLAYSTORE"
     },
     {
@@ -136,10 +122,36 @@
         "Aplicación móvil que utilizan las ganadoras del viaje internacional que organiza la empresa."
       ],
       "technologies": ["React Native", "Firebase", "Push Notifications"],
-      "link": "http://justtopractice.flychech.com/pong/",
+      "link": "https://apps.apple.com/mx/app/terraviaje/id1643955174",
       "linkLogo": "APPSTORE",
-      "link2": "http://justtopractice.flychech.com/pong/",
+      "link2": "https://play.google.com/store/apps/details?id=com.terraviaje",
       "linkLogo2": "PLAYSTORE"
+    }
+  ],
+  "justForPractice": [
+    {
+      "id": "JP1",
+      "company": "Pong.",
+      "time": "",
+      "jobPosition": "Videojuego en canvas.",
+      "duties": [
+        "Pong fue el primer videojuego que jugué en mi infanica y fue especial para mi saberlo programar 😃.",
+        "Está hecho solo con vanilla javascript, HTML y CSS."
+      ],
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "link": "http://justtopractice.flychech.com/pong/"
+    },
+    {
+      "id": "JP2",
+      "company": "Arkanoid.",
+      "time": "",
+      "jobPosition": "Videojuego en canvas.",
+      "duties": [
+        "Este juego lo hice solo por pura practica, para entender como funcionan las coliciones en un videojuego y para aprender a usar sprites.",
+        "Está hecho solo con vanilla javascript, HTML y CSS."
+      ],
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "link": "http://justtopractice.flychech.com/arkanoid/"
     }
   ],
   "justForFun": [

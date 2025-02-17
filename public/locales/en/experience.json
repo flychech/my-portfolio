@@ -106,9 +106,9 @@
       "jobPosition": "Terramar App.",
       "duties": ["Mobile application for Terramar Brands eCommerce members."],
       "technologies": ["React Native", "Firebase", "Push Notifications"],
-      "link": "http://justtopractice.flychech.com/pong/",
+      "link": "https://apps.apple.com/mx/app/terramar-brands-mx/id1492884080",
       "linkLogo": "APPSTORE",
-      "link2": "http://justtopractice.flychech.com/pong/",
+      "link2": "https://play.google.com/store/search?q=terramar%20brands&c=apps",
       "linkLogo2": "PLAYSTORE"
     },
     {
@@ -120,9 +120,9 @@
         "Mobile application used by the winners of the international trip organized by the company."
       ],
       "technologies": ["React Native", "Firebase", "Push Notifications"],
-      "link": "http://justtopractice.flychech.com/pong/",
+      "link": "https://apps.apple.com/mx/app/terraviaje/id1643955174",
       "linkLogo": "APPSTORE",
-      "link2": "http://justtopractice.flychech.com/pong/",
+      "link2": "https://play.google.com/store/apps/details?id=com.terraviaje",
       "linkLogo2": "PLAYSTORE"
     }
   ],
@@ -131,13 +131,25 @@
       "id": "JP1",
       "company": "Pong.",
       "time": "",
-      "jobPosition": "Pong videogame.",
+      "jobPosition": "Canvas Videogame.",
       "duties": [
         "Pong was the first video game I played in my childhood and it was special for me to know how to program it 😃.",
         "It is made only with vanilla javascript, HTML and CSS."
       ],
       "technologies": ["Javascript", "HTML", "CSS"],
       "link": "http://justtopractice.flychech.com/pong/"
+    },
+    {
+      "id": "JP2",
+      "company": "Arkanoid.",
+      "time": "",
+      "jobPosition": "Canvas Videogame.",
+      "duties": [
+        "I made this game just for pure practice, to understand how collisions work in a video game and to learn how to use sprites.",
+        "It is made only with vanilla javascript, HTML and CSS."
+      ],
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "link": "http://justtopractice.flychech.com/arkanoid/"
     }
   ],
   "justForFun": [
